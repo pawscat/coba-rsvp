@@ -85,6 +85,7 @@ export default function GuestBook() {
               onChange={e => setFormData({...formData, name: e.target.value})}
               required
             />
+            </div>
             <div className="mb-4 grid grid-cols-1 md:grid-cols-2 gap-4">
               <div>
                 <label className="block text-sm text-ink-soft mb-1">No HP / WhatsApp</label>
